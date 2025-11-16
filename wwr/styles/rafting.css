@@ -1,28 +1,22 @@
 :root {
   /* Colors */
-  --color-primary: goldenrod;
+  --color-primary: #d4a574; 
   --color-secondary: #f3f5f6c6;
-  /* --accent1-color: #f6e63b7c; */
-  /* --accent2-color: #2610b95a;    */
   --color-text: #1f2937;
-  /* --color-border: #e5e7eb; */
 
   /* Typography */
   --font-base: system-ui, sans-serif;
   --font-size: 1rem;
   --font-heading: 'Lato', sans-serif;
-  /* --font-size-heading: 2rem; */
   /* Spacing */
   --space: 1rem;
 
   /* Radius */
-  /* --radius: 6px; */
 
-  /* Shadow */
-  /* --shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    /* Shadow */
 
   /* Transition */
-  /* --transition: 150ms ease-in-out; */
+
 }
 
 * {
@@ -114,7 +108,6 @@ h1 {
 h1, h2, h3 {
     font-family: var(--font-heading);
     color: var(--color-primary);
-    color: #1a4d2e;  /* dark green - 7.8:1 contrast on white */
 }
 
 nav, p, section, article {
