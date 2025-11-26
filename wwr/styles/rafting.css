@@ -93,8 +93,10 @@ footer {
     width: 100%;
     max-width: none;
     margin: 0 auto;
+    background-color: var(--color-hero-bg);
     color: var(--color-hero-text);
-    /* margin: 15px; */
+    margin: 15px;
+    
 }
 .hero {
     position: relative;
@@ -220,7 +222,7 @@ h1 {
 }
 footer {
     background-color: var(--color-hero-bg);
-    /* color: white; */
+    color: white;
     padding: 1.5rem 2rem;
 
     display: flex;
