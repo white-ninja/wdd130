@@ -1,7 +1,7 @@
 :root {
   /* Colors */
   --color-primary: #d4a574;
-  --color-heading: #1a4d2e;
+  /* --color-heading: #1a4d2e; */
   --color-hero-bg: rgba(9, 44, 78, 1);
   --color-hero-overlay: rgba(9, 44, 78, 0.9); 
   --color-hero-text: #ffffff;
@@ -89,15 +89,14 @@ main {
     max-width: none;
     margin: 0 auto;
 }
-footer {
+/* footer {
     width: 100%;
     max-width: none;
     margin: 0 auto;
     background-color: var(--color-hero-bg);
     color: var(--color-hero-text);
     margin: 15px;
-    
-}
+} */
 .hero {
     position: relative;
     background-color: var(--color-hero-bg);
