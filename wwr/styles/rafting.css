@@ -1,7 +1,6 @@
 :root {
   /* Colors */
   --color-primary: #d4a574;
-  /* --color-heading: #1a4d2e; */
   --color-hero-bg: rgba(9, 44, 78, 1);
   --color-hero-overlay: rgba(9, 44, 78, 0.9); 
   --color-hero-text: #ffffff;
@@ -88,15 +87,6 @@ main {
     width: 100%;
     max-width: none;
     margin: 0 auto;
-}
-footer {
-    width: 100%;
-    max-width: none;
-    margin: 0 auto;
-    background-color: var(--color-hero-bg);
-    color: var(--color-hero-text);
-    margin: 15px;
-    
 }
 .hero {
     position: relative;
@@ -228,6 +218,10 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    width: 100%;
+    max-width: none;
+    margin: 0 auto;
 }
 footer p {
     margin: 0;
