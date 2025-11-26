@@ -39,7 +39,7 @@
   border-radius: 25px;
   padding: 25px;
 }</code></pre>
-<p>Some declarations (<code>background-color</code> and <code>padding</code>, from "box" are overwritten by the same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
+<p>Some declarations <code>background-color</code> and <code>padding</code>, from "box" are overwritten by the same declarations in "highlight" becuase highlight appears after box in the CSS cascade.</p>
     </div>
 
     <div id="note" class="box">
@@ -64,6 +64,12 @@
             <li><strong>DO NOT</strong> start class or ID names with numbers</li>
             <li><strong>DO NOT</strong> use spaces in class or ID names (use hyphens or underscores)</li>
         </ul>
+    <div id="note">
+        <p>This is another div with the same unique ID "note". This is incorrect usage of IDs as IDs should be unique to a single element.</p>
+        <pre><code class="html">&lt;div id="note"&gt; ... &lt;/div&gt;</code></pre>
+        and the CSS selector is
+        <pre><code class="css">#note 
+    </div>
     </section>
 
 

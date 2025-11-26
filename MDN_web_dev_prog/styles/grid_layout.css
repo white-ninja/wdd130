@@ -1,0 +1,39 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+}
+header {
+  background: steelblue;
+  height: 100px;
+}
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: white;
+  line-height: 100px;
+  margin: 0;
+}
+.container > div {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(207 232 220);
+  border: 2px solid rgb(79 185 227);
+}
+img {
+    margin: 5px 10px 5px 10px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #bbb;
+    width: 100px;
+    height: auto;
+}
+.container {
+    display: grid;
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    /* grid-template-columns: 150px 120px 2fr; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-auto-rows: minmax(100px, auto);
+    gap: 20px;
+}
