@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Our company's contact information, including phone number, email address, and physical location. Get in touch with us for inquiries and bookings.">
+    <meta name="author" content="Emmanuel Ariyo">
+    <title>Contact Us - Raukeeyang Water Rafting Ltd</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="logo">
+            <img src="images/z-raftingcompas.jpg" alt="Compass and Rafting Paddle Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>   
+            </ul>
+        </nav>
+    </header>
+
+        <main class="main-section">
+
+        <!-- COMPANY INFORMATION TOP -->
+        <section class="company-info">
+            <h1>Raukeeyang Water Rafting Company</h1>
+            <p>22 Bolarinwa St, Ota 112104, Ogun State</p>
+            <p><strong>Phone:</strong> +234 901 166 3980</p>
+            <p><strong>Email:</strong> 
+                <a href="mailto:info@raukeeraft.com">info@raukeeraft.com</a>
+            </p>
+        </section>
+
+        <!-- CONTACT SECTION GRID (MAP + FORM) -->
+        <section class="contact-grid">
+
+            <!-- MAP COLUMN -->
+            <div class="map-container">
+                <!-- Instructor Requirement: NO INLINE STYLE -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3962.7005257110145!2d3.2372950733006074!3d6.683970793311298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x103b99c7b784368f%3A0x6b2737c455a2de76!2s22%20Bolarinwa%20St%2C%20Ota%20112104%2C%20Ogun%20State!3m2!1d6.6839708!2d3.23987!5e0!3m2!1sen!2sng!4v1764749963538!5m2!1sen!2sng"
+                    loading="lazy"
+                    allowfullscreen=""
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+
+            <!-- FORM COLUMN -->
+            <form action="#">
+
+                <div class="form-item col1">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-item col1">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your email" required>
+                </div>
+
+                <div class="form-item col2">
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+
+                        <label>
+                            <input type="radio" name="purpose" value="general" checked>
+                            General Inquiry
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">
+                            Reservation Question
+                        </label>
+
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">
+                            Website Suggestion
+                        </label>
+                    </fieldset>
+                </div>
+
+                <label for="message">Leave Your Message</label>
+                <textarea id="message" name="message" rows="3" placeholder="Type your message here"></textarea>
+
+                <div class="form-item col2">
+                    <label for="subscribe">
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                    Please subscribe me to the monthly newsletter
+                    </label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+
+        <!-- EMPLOYEES SECTION -->
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="employee-grid">
+                <figure class="employee-card">
+                    <img src="images/rafting42_001.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/rafting22_002.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/rafting19_003.jpg" alt="Employee Profile">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>©️ 2025 | Raukeeyang Water Rafting Ltd. 🏄‍♂️| Emmanuel Ariyo 🏄‍♂️| Nigeria</p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px" src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!" />
+            </a>
+        </p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/emmanuel.ariyo.7" target="_blank">Facebook: <img src="images/fb_icon.png" alt="Facebook Icon"></a> |
+            <a href="https://www.instagram.com/emmanuel_ariyo" target="_blank">Instagram: <img src="images/insta_icon.png" alt="Instagram Icon"></a> |
+            <a href="https://www.linkedin.com/in/emmanuel-ariyo-333789112" target="_blank">LinkedIn: <img src="images/linkedin_icon.png" alt="LinkedIn-Icon"></a>
+        </nav>
+    </footer>
+</body>
+</html>
+
+
