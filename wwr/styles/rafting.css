@@ -426,6 +426,7 @@ footer p {
 .employees h2 {
     color: var(--color-primary);
     margin-bottom: 1.5rem;
+    /* padding: 0; */
 }
 
 h1, h2, h3, h4 {
