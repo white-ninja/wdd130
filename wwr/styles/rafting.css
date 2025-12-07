@@ -642,7 +642,7 @@ button {
 button:hover {
     background-color: rgba(40, 90, 140, 1);
     transform: scale(1.02);
-    box-shadow: 0 0 10px(0, 123, 255, 0.5);
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
 }
 
 button:active {
