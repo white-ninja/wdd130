@@ -10,10 +10,8 @@
 
   /* Typography */
   --font-base: system-ui, sans-serif;
-  --font-size: 1rem;
   --font-heading: 'Courier New', Courier, monospace;
   /* Spacing */
-  --space: 1rem;
   --contact-col-height: 480px;
 
   /* Radius */
@@ -181,7 +179,7 @@ main {
 .index-form input {
     padding: 12px 14px;
     border-radius: 8px;
-    border: 2px solid #e0e0e0;
+    border: 2px solid var(--color-secondary);
     font-size: 1rem;
     font-family: inherit;
     color: var(--color-text);
