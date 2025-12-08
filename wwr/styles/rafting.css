@@ -112,6 +112,17 @@ main {
     text-align: center;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(9, 44, 78, 0.5);
+    padding: 16px;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
 .hero h2 {
     text-align: center;
 }
@@ -518,7 +529,8 @@ main {
     background: transparent;
     color: var(--color-primary);
     font-family: var(--font-heading);
-    font-size: 1.8rem;
+    background-color: var(--color-hero-overlay);
+    font-size: 2.8rem;
     font-weight: 700;
     margin: 0 0 0.5rem 0;
     padding: 0;
@@ -535,6 +547,12 @@ main {
     max-width: 1100px;
     margin: 0 auto;
 }
+
+ #Tin-h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.9rem;  
+ }
 
 .map-container {
     order: -1;
