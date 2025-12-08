@@ -112,6 +112,9 @@ main {
     text-align: center;
 }
 
+.hero h2 {
+    text-align: center;
+}
 .hero article img {
     float: right;
     width: 125px; 
